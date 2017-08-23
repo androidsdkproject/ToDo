@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bggradient"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.android1.todo.ShowProfileFragment">
+
+    <TextView
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="@string/profile_details"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="sans-serif"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:id="@+id/textviewfragmentname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="@string/ayush_verma"
+        android:textSize="17sp" />
+
+    <TextView
+        android:fontFamily="sans-serif"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:id="@+id/textviewfragmentemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="@string/dummyemail"
+        android:textSize="17sp" />
+
+    <TextView
+        android:fontFamily="sans-serif"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:id="@+id/textviewfragmentphone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="@string/dummy_phone"
+        android:textSize="17sp" />
+</LinearLayout>

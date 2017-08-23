@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ShowProfile"
+            android:title="@string/show_profile" />
+        <item
+            android:id="@+id/UpdateProfile"
+            android:title="@string/update_profile" />
+        <item
+            android:id="@+id/SeeTasksList"
+            android:title="@string/see_task_lists" />
+
+        <item
+            android:id="@+id/AddTask"
+            android:title="@string/add_task" />
+        <item
+            android:id="@+id/Logout"
+            android:title="@string/log_out" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+
+            <item
+                android:id="@+id/send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bggradient"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.android1.todo.UpdateProfileFragment">
+
+    <TextView
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/update_profile"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextfragmentname"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="sans-serif"
+        android:hint="@string/ayush_verma"
+        android:padding="10dp"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTextfragmentemail"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="sans-serif"
+        android:hint="@string/dummyemail"
+        android:padding="10dp"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTextfragmentphone"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="sans-serif"
+        android:hint="@string/dummy_phone"
+        android:padding="10dp"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/editTextfragmentpassword"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="sans-serif"
+        android:hint="@string/dummy_password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textSize="17sp"/>
+
+
+    <Button
+        android:id="@+id/UpdateProfilebuttonfragment"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonbg"
+        android:text="@string/update"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
